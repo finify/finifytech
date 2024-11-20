@@ -1,138 +1,95 @@
-<!--Appointment Form-->
-<div class="modal fade" id="schedule-box" tabindex="-1" role="dialog">
-    <div class="modal-dialog popup-container container" role="document">
-        <div class="modal-content">
-            <div class="appoinment_form_wrapper clear_fix">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times" aria-hidden="true"></i></button>
-                <div class="get-quote-form" style="background-image:url(/homeassets/images/background/13.jpg)">
-                	<div class="inner-box">
-                    	<!--Sec Title-->
-                        <div class="sec-title">
-                        	<div class="clearfix">
-                            	<div class="pull-left">
-                                	<h2>Get a Quote</h2>
-                                    <div class="separator centered"></div>
-                                </div>
-                                <!-- <div class="pull-left">
-                                	<div class="text">Get a free quote for your industrial or engineering business solutions, We are here 24/7.</div>
-                                </div> -->
-                            </div>
+ <!-- ...::: Footer Section Start :::... -->
+ <footer class="section-footer">
+    <div class="relative z-10 bg-[#001AA5] text-[#FCF9F0]">
+        <!-- Footer Top -->
+        <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+                <!-- Footer Area -->
+                <div class="grid grid-cols-1 gap-[60px] lg:grid-cols-[1fr_minmax(0,0.7fr)] xxl:grid-cols-[1fr_minmax(0,0.6fr)]">
+                    <!-- Footer Block Left -->
+                    <div>
+                        <!-- Section Block -->
+                        <div class="mb-10 md:mb-[60px] lg:mb-20">
+                            <h2 class="mb-6 font-outfit text-5xl font-medium leading-none lg:text-6xl lg:-tracking-[3px] xl:text-7xl xxl:text-[110px]">
+                                Do you have a project in mind?
+                            </h2>
+                            <p class="text=xl font-outfit font-medium lg:text-2xl">
+                                Join us in shaping a more connected, innovative future
+                                through technology. We're partners in your digital
+                                journey.
+                            </p>
                         </div>
-                        
-                        <!-- Quote Form / Style Two-->
-                        <div class="quote-form style-two">
-                            <!--Shipping Form-->
-                            <form method="post" action="#">
-                                <div class="row clearfix">
-                                	<div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="text" placeholder="Your Name" required>
-                                    </div>
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="text" placeholder="Company Name" required>
-                                    </div>
-                                    <div class="form-group col-md-6 col-sm-6 col-xs-12">
-                                        <input type="text" name="text" placeholder="Phone" required>
-                                    </div>
-                                    
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                        <textarea placeholder="Your Message..."></textarea>
-                                    </div>
-                                    <div class="form-group col-md-12 col-sm-12 col-xs-12">
-                                        <!-- <button class="theme-btn btn-style-one" type="submit" name="submit-form">Send Now <span class="icon flaticon-arrow-pointing-to-right"></span></button> -->
-                                    </div>
-                                </div>
-                            </form>
+                        <!-- Section Block -->
+
+                        <!-- Info Links -->
+                        <div class="flex flex-col gap-y-4 font-outfit text-2xl font-medium">
+                            <a href="tel:+0882346849" class="flex items-center gap-3 hover:underline">
+                                <img src="/assets/img/icons/icon-white-phone.svg" alt="icon-white-phone" width="30" height="30" />
+                                <span class="flex-1"> +08132953221 </span>
+                            </a>
+                            <a href="mail:info@finifytech.com" class="flex items-center gap-3 hover:underline">
+                                <img src="/assets/img/icons/icon-white-mail.svg" alt="icon-white-mail" width="34" height="34" />
+                                <span class="flex-1">info@finifytech.com </span>
+                            </a>
+                            <address class="flex items-center gap-3 not-italic">
+                                <img src="/assets/img/icons/icon-white-location.svg" alt="icon-white-location-marker" width="30" height="30" />
+                                <span class="flex-1">2 Liverpool Street, Apapa Lagos</span>
+                            </address>
                         </div>
-                        
+                        <!-- Info Links -->
                     </div>
+                    <!-- Footer Block Left -->
+
+                    <!-- Footer Block Right -->
+                    <div>
+                        <span class="mb-8 block font-outfit text-2xl font-medium">Send us a message</span>
+                        <!-- Footer Form -->
+                        <form action="" method="post" class="font-base flex flex-col gap-y-6 font-bold outline-none" required>
+                            <input type="text" placeholder="Your Name" class="w-full rounded border-2 bg-[#001AA5] px-6 py-[18px] outline-none placeholder:text-[#FCF9F0]" />
+                            <input type="email" placeholder="Your Email Address" class="w-full rounded border-2 bg-[#001AA5] px-6 py-[18px] outline-none placeholder:text-[#FCF9F0]" required />
+                            <input type="tel" placeholder="Your Phone Number" class="w-full rounded border-2 bg-[#001AA5] px-6 py-[18px] outline-none placeholder:text-[#FCF9F0]"  required/>
+                            <textarea placeholder="Write Your Message Here..." class="min-h-[150px] w-full rounded border-2 bg-[#001AA5] px-6 py-[18px] outline-none placeholder:text-[#FCF9F0]" required></textarea>
+                            <button class="group flex rounded border-2 border-[#FCF9F0] bg-[#FCF9F0] px-6 py-4 text-base font-bold text-[#001AA5] lg:px-8 xl:px-[42px]">
+                                <span class="relative flex items-center justify-center overflow-hidden">
+                                    <span class="translate-y-0 transition-all duration-300 group-hover:-translate-y-full">Send Message</span>
+                                    <span class="absolute translate-y-full transition-all duration-300 group-hover:translate-y-0">Send Message</span>
+                                </span>
+                            </button>
+                        </form>
+                        <!-- Footer Form -->
+                    </div>
+                    <!-- Footer Block Right -->
                 </div>
-            </div> 
-        </div> 
-    </div> 
-      <a href="/" class="backhome">Back to Home <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-</div>
-    <!-- End of #schedule-box -->
-    
-<!--Main Footer-->
-<footer class="main-footer">
-    <div class="auto-container">
-        <!--Widgets Section-->
-        <div class="widgets-section">
-            <div class="row clearfix">
-                
-                <!--Column-->
-                <div class="column col-md-6 col-sm-6 col-xs-12">
-                    <div class="footer-widget logo-widget">
-                        <div class="logo">
-                            <a href="index.html"><img src="/homeassets/images/vacogaslogowhite.png" width="200px" alt="" /></a>
-                        </div>
-                        <div class="widget-content">
-                            <div class="text">Lagos Office: Plot 3B Elegba Festival Road - Oniru Victoria Island Lagos </div>
-                            <div class="text">Abuja Office: Aldenco estate  house  43 Main  Avenue. Galadimawa  Abuja </div>
-                            <ul class="list">
-                                <li>Phone: 08033167341 , 08033102244  </li>
-                                <li>info@vacogas.com</li>
-                            </ul>
-                            <!-- <ul class="social-icon-one">
-                                <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                <li><a href="#"><span class="fa fa-skype"></span></a></li>
-                                <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
-                            </ul> -->
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Column-->
-                <div class="column col-md-6 col-sm-6 col-xs-12">
-                    <div class="footer-widget links-widget">
-                        <div class="footer-title">
-                            <h2>Useful Links</h2>
-                        </div>
-                        <div class="row clearfix">
-                            <div class="column col-md-6 col-sm-6 col-xs-12">
-                                <ul class="links">
-                                    <li><a href="/about">About Us</a></li>
-                                    <li><a href="/about#team">Meet Our Team</a></li>
-                                    <li><a href="/contact">Contact Us</a></li>
-                                </ul>
-                            </div>
-                            <!-- <div class="column col-md-6 col-sm-6 col-xs-12">
-                                <ul class="links">
-                                    <li><a href="#">Market Sectors</a></li>
-                                    <li><a href="#">Industries</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">Why Choose Us</a></li>
-                                    <li><a href="#">Sustainability</a></li>
-                                </ul>
-                            </div> -->
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Column-->
-                <!-- <div class="column col-md-3 col-sm-6 col-xs-12">
-                    <div class="footer-widget material-widget">
-                        <div class="footer-title">
-                            <h2>Our Materials</h2>
-                        </div>
-                        <ul class="list-style-two">
-                            <li><span class="icon flaticon-pdf"></span><a href="#">Company Profile</a>Year 2024</li> 
-                                <li><span class="icon flaticon-doc"></span><a href="#">Industrial Training</a>For Constructors</li>
-                            <li><span class="icon flaticon-pdf"></span><a href="#">Company Growth</a>In Last 3 Years</li> 
-                        </ul> 
-                    </div>
-                </div> -->
-                
+                <!-- Footer Area -->
             </div>
+            <!-- Section Container -->
         </div>
-    </div>
-    <div class="footer-bottom">
-        <div class="auto-container">
-    
-            
-            <div class="copyright">Copyright © 2024 </br> Design by<a href="#"> FinifyTech.</a> All rights reserved.</div>
-            
+        <!-- Footer Top -->
+
+        <!-- Horizontal Line -->
+        <div class="horizontal-line bg-[#FCF9F0]/10"></div>
+        <!-- Horizontal Line -->
+
+        <!-- Footer Bottom -->
+        <div class="py-[35px]">
+            <!-- Section Container -->
+            <div class="container">
+                <div class="flex flex-wrap justify-center gap-x-[30px] gap-y-4 lg:justify-between">
+                    <a href='/'>
+                        <img src="/assets/img/finifylogo.jpeg" alt="logo-buttery-white" width="121" height="24" />
+                    </a>
+
+                    <!-- Copyright Text -->
+                    <div class="text-[#999999]">
+                        &copy; Copyright 2024, All Rights
+                    </div>
+                    <!-- Copyright Text -->
+                </div>
+            </div>
+            <!-- Section Container -->
         </div>
+        <!-- Footer Bottom -->
     </div>
 </footer>
+<!-- ...::: Footer Section End :::... -->

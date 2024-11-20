@@ -2,353 +2,264 @@
 
 @section('content')
 
-	<!--Page Title-->
-	<section class="page-title" style="background-image:url(/homeassets/images/background/6.jpg)">
-    	<div class="auto-container">
-        	<ul class="page-breadcrumb">
-            	<li><a href="/">Home</a></li>
-                <li>About Us</li>
-            </ul>
-        	<h1>About Us</h1>
+<!-- ...::: Breadcrumb Section Start :::... -->
+<section class="section-breadcrumb">
+    <!-- Breadcrumb Background -->
+    <div class="bg-[#001AA5]">
+        <!-- Breadcrumb Space -->
+        <div class="breadcrumb-space">
+            <!-- Section Container -->
+            <div class="container">
+                <div class="breadcrumb-block">
+                    <h1>About Us</h1>
+                    <!-- Breadcrumb Nav -->
+                    <ul class="breadcrumb-nav">
+                        <li>
+                            <a href='/'>Home</a>
+                        </li>
+                        <li><span class="text-white">About Us</span>    </li>
+                    </ul>
+                    <!-- Breadcrumb Nav -->
+                </div>
+            </div>
+            <!-- Section Container -->
         </div>
-    </section>
-    <!--End Page Title-->
-    
-    <!--Company Section-->
-    <section class="company-section">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	
-                <!--Content Column-->
-                <div class="content-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<div class="sec-title">
-                        	<h2>Company OverView</h2>
-                            <div class="separator centered"></div>
-                        </div>
-                        <!-- <div class="bold-text">We Providing Best Indutrial Solution For Our Customers Business Growing In Last 25+ Years.</div> -->
-                        <div class="text">
-                        	<p>Vaco Gas is a Nigerian midstream to downstream company seeking to deliver smart energy solutions to a wide spectrum of customers with a strategic focus on the natural gas value chain. Our strategic priorities include gas sourcing, distribution and technical solutions for gas utilisation via pipeline CNG or LNG. </br>
-Our business model is geared towards providing cleaner, cost-effective natural gas for power generation, vehicle transportation and manufacturing processes in infrastructure stranded markets within and beyond  the emerging industrial hubs of South Eastern Nigeria.
-                            </p>
-                        </div>
-                        <!-- <div class="signature"><img src="images/resource/signature.png" alt="" /></div> -->
+        <!-- Breadcrumb Space -->
+    </div>
+    <!-- Breadcrumb Background -->
+</section>
+<!-- ...::: Breadcrumb Section End :::... -->
+
+<!-- ...::: About Section Start :::... -->
+<section class="section-about">
+    <!-- Section Space -->
+    <div class="section-space">
+        <!-- Section Container -->
+        <div class="container">
+            <!-- Section Block -->
+            <div class="section-block mb-10 md:mb-[60px] xl:mb-20">
+                <div class="grid items-center gap-x-6 gap-y-10 text-center lg:grid-cols-[1fr_minmax(0,0.55fr)] lg:text-start xl:gap-x-[134px]">
+                    <h2 class="jos text-[#001AA5]">
+                        We make
+                        <span>
+                            your
+                            <img src="assets/img/elemnts/shape-light-lime-5-arms-star.svg" alt="shape-light-lime-5-arms-star" width="74" height="70" class="relative inline-block h-auto w-8 after:bg-black md:w-10 lg:w-[57px]" />
+                        </span>
+                        business stand out
+                    </h2>
+                    <p class="jos section-para">
+                        We work closely with our clients to know their objectives,
+                        target audience, unique needs, and practical design
+                        solutions.
+                    </p>
+                </div>
+            </div>
+            <!-- Section Block -->
+
+            <!-- About Area -->
+            <div class="grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2 lg:grid-cols-[0.8fr_0.4fr]">
+                <!-- About Left Block - Video -->
+                <div class="jos relative flex items-center justify-center overflow-hidden rounded-[25px] border-[5px] border-black">
+                    <img src="assets/img/images/th-1/about-img.jpg" alt="about-img" width="846" height="476" loading="lazy" class="h-full w-full object-cover" />
+
+                    <div class="absolute inline-block">
+                        <a data-fslightbox="gallery" href="https://www.youtube.com/watch?v=3nQNiWdeH2Q" class="btn-primary bg-[#001AA5] text-white relative pr-16" aria-label="video-play">
+                            Play
+                            <span class="rounded-[50% absolute right-[0px] inline-flex items-center justify-center"><img src="assets/img/icons/icon-buttery-white-black-play.svg" alt="icon-buttery-white-black-play" width="50" height="50" /></span>
+                        </a>
                     </div>
                 </div>
-                
-                <!--Image Column-->
-                <div class="image-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<div class="image">
-                        	<img src="/homeassets/images/cngtruck.jpeg" alt="" />
-                        </div>
-                        <!-- <div class="carousel-box">
-                        	<div class="single-item-carousel owl-carousel owl-box">
-                            
-                                <div class="testimonial-block-six">
-                                    <div class="inner">
-                                        <div class="quote-icon">
-                                            <span class="icon flaticon-left-quote-sketch"></span>
-                                        </div>
-                                        <div class="text">Positive behavioral supports is a behavior management system used to understand behavior. </div>
-                                        <div class="author-box">
-                                            <div class="author-inner">
-                                                <div class="image"><img src="images/resource/author-6.jpg" alt="" /></div>
-                                                <h3>Teena Venanda</h3>
-                                                <div class="designation">CEO & Founder</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="testimonial-block-six">
-                                    <div class="inner">
-                                        <div class="quote-icon">
-                                            <span class="icon flaticon-left-quote-sketch"></span>
-                                        </div>
-                                        <div class="text">Positive behavioral supports is a behavior management system used to understand behavior. </div>
-                                        <div class="author-box">
-                                            <div class="author-inner">
-                                                <div class="image"><img src="images/resource/author-6.jpg" alt="" /></div>
-                                                <h3>Teena Venanda</h3>
-                                                <div class="designation">CEO & Founder</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
-                                <div class="testimonial-block-six">
-                                    <div class="inner">
-                                        <div class="quote-icon">
-                                            <span class="icon flaticon-left-quote-sketch"></span>
-                                        </div>
-                                        <div class="text">Positive behavioral supports is a behavior management system used to understand behavior. </div>
-                                        <div class="author-box">
-                                            <div class="author-inner">
-                                                <div class="image"><img src="images/resource/author-6.jpg" alt="" /></div>
-                                                <h3>Teena Venanda</h3>
-                                                <div class="designation">CEO & Founder</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                
+                <!-- About Left Block - Video -->
+
+                <!-- About Right Block - Counter Up -->
+                <div class="jos rounded-[25px] bg-black p-[30px]">
+                    <ul class="divide-y divide-[#333333]">
+                        <li class="py-6 text-center first-of-type:pt-0 last-of-type:pb-0">
+                            <div class="font-syne text-4xl font-bold leading-[1.07] -tracking-[1%] text-white md:text-5xl xl:text-[70px]" data-module="countup">
+                                <span class="start-number" data-countup-number="15">15</span>+
                             </div>
-                        </div> -->
-                    </div>
+                            <span class="mt-2 inline-block text-colorButteryWhite">Years of experience</span>
+                        </li>
+                        <li class="py-6 text-center first-of-type:pt-0 last-of-type:pb-0">
+                            <div class="font-syne text-4xl font-bold leading-[1.07] -tracking-[1%] text-white md:text-5xl xl:text-[70px]" data-module="countup">
+                                <span class="start-number" data-countup-number="120">120</span>k
+                            </div>
+                            <span class="mt-2 inline-block text-colorButteryWhite">Successful projects</span>
+                        </li>
+                        <li class="py-6 text-center first-of-type:pt-0 last-of-type:pb-0">
+                            <div class="font-syne text-4xl font-bold leading-[1.07] -tracking-[1%] text-white md:text-5xl xl:text-[70px]" data-module="countup">
+                                <span class="start-number" data-countup-number="100">100</span>%
+                            </div>
+                            <span class="mt-2 inline-block text-colorButteryWhite">Client satisfaction rate</span>
+                        </li>
+                    </ul>
                 </div>
-                
+                <!-- About Right Block - Counter Up -->
+            </div>
+            <!-- About Area -->
+        </div>
+        <!-- Section Container -->
+    </div>
+    <!-- Section Space -->
+</section>
+<!-- ...::: About Section End :::... -->
+
+<!-- ...::: About Gallery Section Start :::... -->
+<section class="section-about-gallery">
+    <!-- Section Space -->
+    <div class="section-space">
+        <!-- Section Container -->
+        <div class="container">
+            <!-- Section Block -->
+            <div class="section-block mb-10 md:mb-[60px] xl:mb-20">
+                <h2 class="jos mx-auto max-w-[966px] text-center text-[#001AA5]">
+                    We think our story is
+                    <span>
+                        <img src="assets/img/elemnts/shape-light-lime-5-arms-star.svg" alt="shape-light-lime-5-arms-star" width="74" height="70" class="relative inline-block h-auto w-8 after:bg-black md:w-10 lg:w-[57px]" /> </span>worth sharing with you
+                </h2>
+                <div class="mx-auto mt-6 max-w-[813px] text-center">
+                    <p class="jos section-para">
+                        Established in 2008, we began as a small but ambitious team.
+                        We understood the importance of creative and tech-savvy
+                        solutions to help businesses succeed in the ever-changing
+                        digital landscape.
+                    </p>
+                </div>
+            </div>
+            <!-- Section Block -->
+
+            <!-- About Gallery Image List -->
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+                <!-- About Galley Image Item -->
+                <a href="assets/img/images/th-1/about-gallery-img-1.jpg" data-fslightbox="gallery" class="group block cursor-pointer overflow-hidden rounded-[25px] border-2 border-black md:col-span-1 lg:col-span-2">
+                    <img src="assets/img/images/th-1/about-gallery-img-1.jpg" alt="about-gallery-img-1" width="846" height="392" class="h-full w-full object-cover transition-all duration-300 group-hover:scale-110" />
+                </a>
+                <!-- About Galley Image Item -->
+                <!-- About Galley Image Item -->
+                <a href="assets/img/images/th-1/about-gallery-img-2.jpg" data-fslightbox="gallery" class="group col-span-1 block cursor-pointer overflow-hidden rounded-[25px] border-2 border-black">
+                    <img src="assets/img/images/th-1/about-gallery-img-2.jpg" alt="about-gallery-img-2" width="408" height="392" class="h-full w-full object-cover transition-all duration-300 group-hover:scale-110" />
+                </a>
+                <!-- About Galley Image Item -->
+                <!-- About Galley Image Item -->
+                <a href="assets/img/images/th-1/about-gallery-img-3.jpg" data-fslightbox="gallery" class="group col-span-1 block cursor-pointer overflow-hidden rounded-[25px] border-2 border-black">
+                    <img src="assets/img/images/th-1/about-gallery-img-3.jpg" alt="about-gallery-img-3" width="408" height="392" class="h-full w-full object-cover transition-all duration-300 group-hover:scale-110" />
+                </a>
+                <!-- About Galley Image Item -->
+                <!-- About Galley Image Item -->
+                <a href="assets/img/images/th-1/about-gallery-img-4.jpg" data-fslightbox="gallery" class="group block cursor-pointer overflow-hidden rounded-[25px] border-2 border-black md:col-span-1 lg:col-span-2">
+                    <img src="assets/img/images/th-1/about-gallery-img-4.jpg" alt="about-gallery-img-4" width="846" height="392" class="h-full w-full object-cover transition-all duration-300 group-hover:scale-110" />
+                </a>
+                <!-- About Galley Image Item -->
+            </div>
+            <!-- About Gallery Image List -->
+
+            <div class="mt-10 grid grid-cols-1 gap-x-5 gap-y-10 lg:grid-cols-2">
+                <div class="rich-text">
+                    <h4 class="mb-4">Our core vision</h4>
+                    <p>
+                        Empowering businesses to create impactful and visually
+                        stunning brand experiences that captivate audiences and
+                        drive success in the digital age.
+                    </p>
+
+                    <p>
+                        Our team consists of experienced designers, developers. We
+                        have a wide variety of skills and backgrounds, allowing us
+                        to tackle projects of all sizes and complexities. We believe
+                        in the power of imagination and innovation.
+                    </p>
+                </div>
+                <div class="rich-text">
+                    <h4 class="mb-4">Our main mission</h4>
+                    <p>
+                        Our mission is to collaborate with businesses of all sizes,
+                        from startups to established brands, to provide innovative
+                        and creative design solutions.
+                    </p>
+
+                    <p>
+                        We are committed to creating designs that inspire, connect &
+                        our clients in the marketplace. Our focus is on
+                        understanding. Our clients' unique needs and delivery
+                        designs that not only meet but exceed their expectations.
+                    </p>
+                </div>
             </div>
         </div>
-    </section>
-    <!--End Company Section-->
-    
-    <!--Highlights Section-->
-    <section class="highlights-section">
-    	<div class="image-layer" style="background-image:url(/homeassets/images/about2.jpeg)"></div>
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	
-                <!--Content Column-->
-                <div class="content-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<div class="sec-title">
-                        	<h2>Core Values:</h2>
-                            <div class="separator centered"></div>
-                        </div>
-                        
-                        <div class="row clearfix">
-                        	
-                            <!--Hightlight Block-->
-                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
-                            	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-target"></span>
-                                    </div>
-                                    <h3>Safety</h3>
-                                    <a href="#" class="overlay-link"></a>
-                                </div>
-                            </div>
-                            
-                            <!--Hightlight Block-->
-                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
-                            	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-graph"></span>
-                                    </div>
-                                    <h3>Sustainability</h3>
-                                    <a href="#" class="overlay-link"></a>
-                                </div>
-                            </div>
-                            
-                            <!--Hightlight Block-->
-                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
-                            	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-quality"></span>
-                                    </div>
-                                    <h3>Innovation</h3>
-                                    <a href="#" class="overlay-link"></a>
-                                </div>
-                            </div>
-                            
-                            <!--Hightlight Block-->
-                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
-                            	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-idea"></span>
-                                    </div>
-                                    <h3>Integrity</h3>
-                                    <a href="#" class="overlay-link"></a>
-                                </div>
-                            </div>
-                            
-                            <!--Hightlight Block-->
-                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
-                            	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-loupe"></span>
-                                    </div>
-                                    <h3>Customer Focus</h3>
-                                    <a href="#" class="overlay-link"></a>
-                                </div>
-                            </div>
-                            
-                            <!--Hightlight Block-->
-                            <div class="hightlight-block col-md-4 col-sm-6 col-xs-12">
-                            	<div class="hightlight-inner">
-                                	<div class="icon-box">
-                                    	<span class="icon flaticon-people-1"></span>
-                                    </div>
-                                    <h3>Collaboration</h3>
-                                    <a href="#" class="overlay-link"></a>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        
-                    </div>
-                </div>
-                
-                <!--Services Column-->
-                <div class="services-column col-md-6 col-sm-12 col-xs-12">
-                    <div class="inner-column">
-                        <div class="upper-box">
-                            <div class="icon flaticon-target"></div>
-                            <h2>Our Vision</h2>
-                        </div>
-                        <div class="text">To be a leader in innovative energy solutions in sub-saharan Africa</div>
-                        
-                    </div>
-                	<div class="inner-column">
-                        <div class="upper-box">
-                            <div class="icon flaticon-target"></div>
-                            <h2>Our Mission</h2>
-                        </div>
-                        <div class="text">To deepen energy utilization in immediate markets by facilitating smart and efficient energy solutions to a differentiated cross-section of customers. </div>
-                        <!-- <a href="#" class="services">Our Services <span class="icon flaticon-arrow-pointing-to-right"></span></a> -->
-                    </div>
-                </div>
-                
+        <!-- Section Container -->
+    </div>
+    <!-- Section Space -->
+</section>
+<!-- ...::: About Gallery Section End :::... -->
+
+<!-- ...::: Text Slider Section Start :::... -->
+<div class="section-text-slider">
+    <div class="bg-black py-5">
+        <div class="horizontal-slide-from-right-to-left flex items-center gap-x-6">
+            <!-- Text Slider Item Text-->
+            <div class="whitespace-nowrap font-syne text-[35px] font-bold leading-none tracking-[1px] text-white">
+                Let's create new experiences
             </div>
+            <!-- Text Slider Item Text -->
+            <!-- Text Slider Separator Icon -->
+            <div class="h-10 min-w-[42px]">
+                <img src="assets/img/elemnts/shape-light-lime-5-arms-star.svg" alt="shape-light-lime-5-arms-star" width="74" height="70" class="h-10 w-auto" />
+            </div>
+            <!-- Text Slider Separator Icon -->
+            <!-- Text Slider Item Text-->
+            <div class="whitespace-nowrap font-syne text-[35px] font-bold leading-none tracking-[1px] text-white">
+                Let's create new experiences
+            </div>
+            <!-- Text Slider Item Text -->
+            <!-- Text Slider Separator Icon -->
+            <div class="h-10 min-w-[42px]">
+                <img src="assets/img/elemnts/shape-light-lime-5-arms-star.svg" alt="shape-light-lime-5-arms-star" width="74" height="70" class="h-10 w-auto" />
+            </div>
+            <!-- Text Slider Separator Icon -->
+            <!-- Text Slider Item Text-->
+            <div class="whitespace-nowrap font-syne text-[35px] font-bold leading-none tracking-[1px] text-white">
+                Let's create new experiences
+            </div>
+            <!-- Text Slider Item Text -->
+            <!-- Text Slider Separator Icon -->
+            <div class="h-10 min-w-[42px]">
+                <img src="assets/img/elemnts/shape-light-lime-5-arms-star.svg" alt="shape-light-lime-5-arms-star" width="74" height="70" class="h-10 w-auto" />
+            </div>
+            <!-- Text Slider Separator Icon -->
+            <!-- Text Slider Item Text-->
+            <div class="whitespace-nowrap font-syne text-[35px] font-bold leading-none tracking-[1px] text-white">
+                Let's create new experiences
+            </div>
+            <!-- Text Slider Item Text -->
+            <!-- Text Slider Separator Icon -->
+            <div class="h-10 min-w-[42px]">
+                <img src="assets/img/elemnts/shape-light-lime-5-arms-star.svg" alt="shape-light-lime-5-arms-star" width="74" height="70" class="h-10 w-auto" />
+            </div>
+            <!-- Text Slider Separator Icon -->
+            <!-- Text Slider Item Text-->
+            <div class="whitespace-nowrap font-syne text-[35px] font-bold leading-none tracking-[1px] text-white">
+                Let's create new experiences
+            </div>
+            <!-- Text Slider Item Text -->
+            <!-- Text Slider Separator Icon -->
+            <div class="h-10 min-w-[42px]">
+                <img src="assets/img/elemnts/shape-light-lime-5-arms-star.svg" alt="shape-light-lime-5-arms-star" width="74" height="70" class="h-10 w-auto" />
+            </div>
+            <!-- Text Slider Separator Icon -->
+            <!-- Text Slider Item Text-->
+            <div class="whitespace-nowrap font-syne text-[35px] font-bold leading-none tracking-[1px] text-white">
+                Let's create new experiences
+            </div>
+            <!-- Text Slider Item Text -->
+            <!-- Text Slider Separator Icon -->
+            <div class="h-10 min-w-[42px]">
+                <img src="assets/img/elemnts/shape-light-lime-5-arms-star.svg" alt="shape-light-lime-5-arms-star" width="74" height="70" class="h-10 w-auto" />
+            </div>
+            <!-- Text Slider Separator Icon -->
         </div>
-    </section>
-    <!--End Highlights Section-->
+    </div>
+</div>
+<!-- ...::: Text Slider Section End :::... -->
 
 
-      <!--Career Section-->
-      <section class="career-section">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	
-                <!--Content Column-->
-                <div class="content-column col-lg-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<div class="sec-title">
-                        	<h2>THE NATURAL GAS ADVANTAGE</h2>
-                            <div class="separator centered"></div>
-                        </div>
-                        
-                        <ul class="list-style-one">
-                        	<li><strong>Cheaper, cleaner and safer fuel</strong></li>
-                        	<li><strong>Cost-Effective energy solution for mass/bulk transportation</strong></li>
-                            <li><strong>Job creation across value chain</strong></li>
-                        	<li><strong>Technology Transfer</strong></li>
-                        </ul>
-                        
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="/homeassets/images/reliable.jpeg" width="100%" alt="">
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!--End Career Section-->
-    
-    <!--Team Section-->
-    <section class="team-section" id="team">
-    	<div class="auto-container">
-        	<div class="sec-title centered">
-            	<h2>Behind Our Success</h2>
-                <div class="separator"></div>
-            </div>
-            <div class="row clearfix">
-            	
-                <div class="team-block col-md-4 col-sm-4 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image team_image">
-                        	<img src="/homeassets/images/chukwuma.jpg" alt="" />
-                            <!-- <div class="overlay-box">
-                            	<ul class="social-icon-two">
-                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                </ul>
-                            </div> -->
-                        </div>
-                        <div class="lower-content">
-                        	<h3><a href="#">Ezeike Chukwuma</a></h3>
-                            <div class="designation">Managing Director</div>
-                            <div class="text">Chukwuma is a seasoned oil and gas professional with over 28 years cognate experience in the upstream midstream and downstream sectors.
-                            Following a brief stint with Guinness Nigeria, Chukwuma joined the Royal Dutch Shell Group as a Production Facilities Engineer involved with design construction and lifecycle management of strategic oil and gas production assets. He joined the Oando Group in 2009 as Head Quality Assurance where he oversaw the implementation of robust quality management systems for the upstream and midstream subsidiaries. Chukwuma was later appointed Head Engineering and Operations for the Axella group where he led the development of over 400 megawatts of captive power generation and expanded the largest domestic gas distribution network in sub-Saharan Africa including the development of a 150000scmd CNG mother station.
-                            A powerful communicator, change driver and people manager, Chukwuma has played key leadership roles in strategic projects in Nigeria, US and the Middle East including sitting as a member of the policy think-tank for the Nigerian Gas Network Code. Chukwuma has an MBA from Imperial College Business School London.</div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="team-block col-md-4 col-sm-4 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image team_image">
-                        	<img src="/homeassets/images/chinedu1.jpg" alt="" />
-                            <!-- <div class="overlay-box">
-                            	<ul class="social-icon-two">
-                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                </ul>
-                            </div> -->
-                        </div>
-                        <div class="lower-content">
-                        	<h3><a href="#">CHINEDU OKORONKWO<br> </a></h3>
-                            <div class="designation">EXECUTIVE VICE CHAIRMAN</div>
-                            <div class="text">
-                            Before joining Vaco Gas, Chinedu Okoronkwo served as the Chief Executive Officer  and Chairman of Avina Industries Limited, domiciled in the Rivers State Capital, Port Harcourt,  South - South Nigeria, is a leading captain of industry and organized private sector. 
-                            <br>
-                            An urbane man of all seasons, Chinedu Okoronkwo,  is a name well known to  key policy makers, managers and top notch executives  not only within the Nigerian National Petroleum Corporation ( NNPC ), NPDC , NLNG , NAPIMS . NUPRC , NDMPRA , NMPPRA etc , amongst other  but in the entire value- chain of the oil and gas industry. 
-                            <br>
-                            He demonstrated immense associational leadership skills, robust experience, competences , diplomacy and knowledge-base in the national headship of the Independent Petroleum Marketers Association of Nigeria (IPMAN) on December 14th , 2014 , when he was first elected the National President of IPMAN.
-                            <br>
-                            Currently sitting on the Board of Trustees of the Independent Petroleum Marketers Association of Nigeria   { IPMAN } as its Treasurer  and former National President, Chinedu Okoronkwo had been in the forefront of drumming up nationwide campaign drive on the conceptual need for the introduction of the Compressed Natural Gas (CNG), three years before  a great majority of Nigerians as well as the Federal Government,  began to show interest in the scheme. 
-                            <br>
-                            His sound knowledge-base, experience  , competences and global contacts on the Compressed Natural Gas {CNG}  a criteria that led THIS DAY newspapers in December  2022 to  list Chinedu Okoronkwo amongst the  MOVERS & SHAKERS OF THE NIGERIAN ECONOMY.</div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="team-block col-md-4 col-sm-4 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image team_image">
-                        	<img src="/homeassets/images/aliche1.jpg" alt="" />
-                            <!-- <div class="overlay-box">
-                            	<ul class="social-icon-two">
-                                    <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-                                    <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-                                </ul>
-                            </div> -->
-                        </div>
-                        <div class="lower-content">
-                        	<h3><a href="#">ALICHE CHIJIOKE OTI <br> </a></h3>
-                            <div class="designation">Executive Director</div>
-                            <div class="text">Aliche Chijioke Oti holds a BSc in Political Science and Public Administration from University of Uyo, Uyo, Akwa Ibom State.
-                            He is a Member and Fellow of Institute of Corporate Administration ICAD Nigeria.
-                            <br>
-                            Aliche is the Executive Director for VACO GAS SOLUTIONS LIMITED. Prior to joining Vaco Gas, Aliche served as the Managing Director for Auto Gas Limited, a Petroleum and Gas Marketing Company providing marketing and distribution services to individuals and Corporates across Nigeria.
-                            <br>
-                            Aliche also served as the Zonal General Secretary Eastern Zone 2017 - 2023 and Currently the National Chief Whip for Independent Petroleum Marketers Association of Nigeria (IPMAN).
-                            <br>
-                            Aliche Chijioke Oti is a seasoned leader with over twenty 20 years experience in Corporate Governance and Investment Management.
-                            He has played a pivotal role in  strengthening the company’s strategic formulation and execution.</div>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!--End Team Section-->
-    
-   <!--Call To Action Section-->
-   <section class="call-to-action-section" style="background-image:url(/homeassets/images/background/5.jpg)">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	<div class="col-md-9 col-sm-12 col-xs-12">
-                	<h2>Have any questions relating to CNG?</h2>
-                </div>
-                <div class="link-column col-md-3 col-sm-12 col-xs-12">
-                	<a class="apointment" href="/about">Contact Us <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Call To Action Section-->
 @endsection

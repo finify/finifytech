@@ -1,762 +1,529 @@
 @extends('home.layout.layout')
 
 @section('content')
- <!--Main Slider-->
- <section class="main-slider">
-    	
-        <div class="rev_slider_wrapper fullwidthbanner-container"  id="rev_slider_one_wrapper" data-source="gallery">
-            <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
-                <ul>
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1689" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="/homeassets/images/main-slider/image-1.jpg" data-title="Slide Title" data-transition="parallaxvertical"  >
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="/homeassets/images/motherstation.jpeg"> 
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['650','700','650','460']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['-80','-90','-70','-80']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                    	<h2>Powering Progress <br> Through Clean Energy Solutions  </h2>
+<!-- ...::: Hero Section Start :::... -->
+<section class="section-hero">
+    <div class="relative z-10 mt-[62px] bg-cover bg-center bg-no-repeat after:absolute after:inset-0 after:-z-10 after:bg-[#000937]/60 lg:mt-[100px]" style="background-image: url(/assets/img/finifybg.png);">
+        <div class="py-20 md:py-[100px] xl:py-[150px]">
+            <div class="container">
+                <!-- Hero Area -->
+                <div class="text-center text-[#FCF9F0]">
+                    <h1 class="font-outfit text-5xl font-medium uppercase leading-none -tracking-[3px] sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl xxl:text-[140px]">
+                        Enter the age of technology
+                    </h1>
+                    <p class="mx-auto mb-12 mt-6 max-w-3xl text-xl lg:text-2xl xl:max-w-5xl">
+                        Our company is a beacon of innovation and progress in the
+                        tech world. We design websites, apps, and digital
+                        experiences to help clients grow and transform.
+                    </p>
+                    <div class="flex flex-wrap justify-center gap-6">
+                        <a class='group inline-flex rounded border-2 border-[#001AA5] bg-[#001AA5] px-6 py-3 text-base font-bold text-white lg:px-8 xl:px-[42px]' href='contact.html'>
+                            <div class="relative flex items-center justify-center overflow-hidden">
+                                <span class="translate-y-0 transition-all duration-300 group-hover:-translate-y-full">Get In Touch</span>
+                                <span class="absolute translate-y-full transition-all duration-300 group-hover:translate-y-0">Get In Touch</span>
+                            </div>
+                        </a>
+                        <a class='group inline-flex rounded border-2 border-[#FCF9F0] bg-transparent px-6 py-3 text-base font-bold text-white lg:px-8 xl:px-[42px]' href='service.html'>
+                            <div class="relative flex items-center justify-center overflow-hidden">
+                                <span class="translate-y-0 transition-all duration-300 group-hover:-translate-y-full">Explore Our Services</span>
+                                <span class="absolute translate-y-full transition-all duration-300 group-hover:translate-y-0">Explore Our Services</span>
+                            </div>
+                        </a>
                     </div>
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['650','700','650','460']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['80','60','60','40']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                    	<div class="text !text-white" style="color:white;">Vaco Gas is a leading provider of Compressed Natural Gas (CNG) solutions. <br> </div>
-                    </div>
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['550','550','550','460']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['150','130','130','130']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                    	<a href="/about" class="know_more"><span class="icon flaticon-right-arrow-1"></span> Know More About Us</a>
-                    </div>
-                    
-                    </li>
-                    
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1687" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="/homeassets/images/main-slider/image-2.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="/homeassets/images/vacotruck.jpg"> 
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['550','800','750','500']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['-80','-80','-70','-80']"
-                    data-x="['right','right','right','right']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                    	<h2>CNG Compression and Transport</h2>
-                    </div>
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['550','800','750','500']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['80','40','50','40']"
-                    data-x="['right','right','right','right']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                    	<div class="text"></div>
-                    </div>
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['550','800','750','500']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['150','110','130','130']"
-                    data-x="['right','right','right','right']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                    	<a href="/about" class="know_more"><span class="icon flaticon-right-arrow-1"></span> </a>
-                    </div>
-                    
-                    </li>
-                    
-                    <li data-description="Slide Description" data-easein="default" data-easeout="default" data-fsmasterspeed="1500" data-fsslotamount="7" data-fstransition="fade" data-hideafterloop="0" data-hideslideonmobile="off" data-index="rs-1688" data-masterspeed="default" data-param1="" data-param10="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-rotate="0" data-saveperformance="off" data-slotamount="default" data-thumb="/homeassets/images/main-slider/image-3.jpg" data-title="Slide Title" data-transition="parallaxvertical">
-                    <img alt="" class="rev-slidebg" data-bgfit="cover" data-bgparallax="10" data-bgposition="center center" data-bgrepeat="no-repeat" data-no-retina="" src="/homeassets/images/cngimage1.jpeg"> 
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['650','700','650','460']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['-80','-90','-70','-80']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                    	<h2> Driving Sustainability<br> </h2>
-                    </div>
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['650','700','650','460']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['80','60','60','40']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                    	<div class="text">Your Partner in  Gas CNG Solutions </div>
-                    </div>
-                    
-                    <div class="tp-caption" 
-                    data-paddingbottom="[0,0,0,0]"
-                    data-paddingleft="[0,0,0,0]"
-                    data-paddingright="[0,0,0,0]"
-                    data-paddingtop="[0,0,0,0]"
-                    data-responsive_offset="on"
-                    data-type="text"
-                    data-height="none"
-                    data-width="['550','550','550','460']"
-                    data-whitespace="normal"
-                    data-hoffset="['15','15','15','15']"
-                    data-voffset="['150','130','130','130']"
-                    data-x="['left','left','left','left']"
-                    data-y="['middle','middle','middle','middle']"
-                    data-textalign="['top','top','top','top']"
-                    data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":1000,"ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"to":"auto:auto;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power3.easeInOut"}]'
-                    style="z-index: 7; white-space: nowrap;">
-                    	<a href="/about" class="know_more"><span class="icon flaticon-right-arrow-1"></span> Meet Our Expert team</a>
-                    </div>
-                    
-                    </li>
-                    
-                </ul>
+                </div>
+                <!-- Hero Area -->
             </div>
         </div>
-    </section>
-    <!--End Main Slider-->
+    </div>
+    <!-- Hero Space -->
+</section>
+<!-- ...::: Hero Section End :::... -->
 
-      <!--Career Section-->
-      <section class="career-section">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	
-                <!--Video Column-->
-                <div class="video-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<div class="image">
-                        	<img src="/homeassets/images/cngcar.webp" alt="" />
-                            <a href="https://www.youtube.com/watch?v=VPA0WyVUEMc" class="lightbox-image play-btn">
-                                <span class="icon flaticon-play-button-3"></span>
-                                Play Video
+<!-- ...::: Fun-fact Section Start :::... -->
+<section class="section-fun-fact">
+    <!-- Section Space -->
+    <div class="section-space">
+        <!-- Section Container -->
+        <div class="container">
+            <!-- Section Block -->
+            <div class="mb-10 md:mb-[60px] lg:mb-20">
+                <h3 class="jos max-w-2xl font-outfit text-3xl font-medium leading-tight text-[#000937] md:text-4xl lg:text-[50px]">
+                    Our professionalism can be quantified by the numbers
+                </h3>
+            </div>
+            <!-- Section Block -->
+
+            <!-- Counter List -->
+            <ul class="grid grid-cols-1 gap-8 text-[#000937] md:grid-cols-3 xl:gap-32">
+                <!-- Counter Item -->
+                <li>
+                    <span class="block font-outfit text-2xl font-medium">Verified client review rate</span>
+                    <div class="my-4 h-px w-full bg-current"></div>
+                    <div class="font-outfit text-6xl font-medium leading-none -tracking-[3px] md:text-7xl xl:text-[110px]" data-module="countup">
+                        <span class="start-number" data-countup-number="4.8">4.8</span>/5
+                    </div>
+                </li>
+                <!-- Counter Item -->
+                <!-- Counter Item -->
+                <li>
+                    <span class="block font-outfit text-2xl font-medium">Experienced engineers</span>
+                    <div class="my-4 h-px w-full bg-current"></div>
+                    <div class="font-outfit text-6xl font-medium leading-none -tracking-[3px] md:text-7xl xl:text-[110px]" data-module="countup">
+                        <span class="start-number" data-countup-number="20">20</span>+
+                    </div>
+                </li>
+                <!-- Counter Item -->
+                <!-- Counter Item -->
+                <li>
+                    <span class="block font-outfit text-2xl font-medium">Annual growth in renewals</span>
+                    <div class="my-4 h-px w-full bg-current"></div>
+                    <div class="font-outfit text-6xl font-medium leading-none -tracking-[3px] md:text-7xl xl:text-[110px]" data-module="countup">
+                        <span class="start-number" data-countup-number="200">200</span>%
+                    </div>
+                </li>
+                <!-- Counter Item -->
+            </ul>
+            <!-- Counter List -->
+        </div>
+        <!-- Section Container -->
+    </div>
+    <!-- Section Space -->
+</section>
+<!-- ...::: Fun-fact Section End :::... -->
+
+<!-- ...::: Content Section Start :::... -->
+<section class="section-content">
+    <!-- Section Space -->
+    <div class="section-space-bottom pt-[50px]">
+        <!-- Section Container -->
+        <div class="container">
+            <!-- Content Area -->
+            <div class="grid grid-cols-1 items-center gap-14 md:grid-cols-[minmax(0,0.55fr)_1fr] lg:gap-[90px]">
+                <!-- Content Left Block -->
+                <div class="jos order-2 overflow-hidden rounded-[10px] md:order-1" data-jos_animation="fade-right">
+                    <img src="/assets/img/aboutimage.png" alt="content-img-1" width="450" height="550" class="h-auto w-full" />
+                </div>
+                <!-- Content Left Block -->
+
+                <!-- Content Right Block -->
+                <div class="jos order-1 md:order-2" data-jos_animation="fade-left">
+                    <!-- Section Block -->
+                    <div class="mb-[30px] text-[#000937]">
+                        <h2 class="font-outfit text-5xl font-medium leading-none lg:text-6xl lg:-tracking-[3px] xl:text-7xl xxl:text-[110px]">
+                            Solve complex problems simply
+                        </h2>
+                        <p class="mt-6 font-outfit text-xl font-medium lg:text-2xl">
+                            We thrive on complexity reduce it to simplicity, creating
+                            products & services that enable individuals and businesses
+                            alike to adapt to the rapidly changing technology
+                            landscape.
+                        </p>
+                    </div>
+                    <!-- Section Block -->
+                    <p>
+                        We also believe that technology will not only meet today's
+                        needs but also anticipate tomorrow's challenges. Our diverse
+                        & highly skilled team is driven by a shared passion to push
+                        the boundaries of what is possible. We are committed to
+                        creating products and services.
+                    </p>
+                </div>
+                <!-- Content Right Block -->
+            </div>
+            <!-- Content Area -->
+        </div>
+        <!-- Section Container -->
+    </div>
+    <!-- Section Space -->
+</section>
+<!-- ...::: Content Section End :::... -->
+
+<!-- ...::: Service Section Start :::... -->
+<section class="section-service">
+    <!-- Section Background -->
+    <div class="bg-[#001AA5]">
+        <!-- Section Space -->
+        <div class="section-space">
+            <!-- Section Container -->
+            <div class="container">
+                <!-- Section Block -->
+                <div class="mx-auto mb-10 max-w-xl text-center text-[#FCF9F0] md:mb-[60px] lg:mb-20 lg:max-w-2xl xxl:max-w-4xl">
+                    <h2 class="font-outfit text-5xl font-medium leading-none lg:text-6xl lg:-tracking-[3px] xl:text-7xl xxl:text-[110px]">
+                        We are passionate about what we do
+                    </h2>
+                </div>
+                <!-- Section Block -->
+            </div>
+            <!-- Section Container -->
+
+            <!-- Service List -->
+            <ul>
+                <!-- Service Item -->
+                <li class="jos group" onmouseover="showImage(event)">
+                    <div class="transition-all duration-300 group-hover:bg-[#000937]">
+                        <!-- Content Block -->
+                        <div class="round-[5px] container grid grid-cols-1 items-center gap-6 py-[30px] text-[#FCF9F0] transition-all md:grid-cols-[1fr_1fr_50px]">
+                            <a class='font-outfit text-3xl font-medium md:text-4xl xxl:text-[50px]' href='#'>Software Development</a>
+                            <p class="para-lg max-w-[526px]">
+                                Build custom software for your unique needs with
+                                front-end and back-end technologies.
+                            </p>
+                            <a href='#'>
+                                <img src="/assets/img/icons/icon-buttery-white-solid-arrow-right.svg" alt="icon-buttery-white-solid-arrow-right" width="50" height="49" />
                             </a>
                         </div>
+                        <!-- Content Block -->
                     </div>
-                </div>
-                <!--Content Column-->
-                <div class="content-column col-md-6 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<div class="sec-title">
-                        	<h2>About Us</h2>
-                            <div class="separator centered"></div>
-                        </div>
-                        <div class="text">Vaco Gas is a Nigerian midstream to downstream company seeking to deliver smart energy solutions to a wide spectrum of customers with a strategic focus on the natural gas value chain. Our strategic priorities include gas sourcing, distribution and technical solutions for gas utilisation via pipeline CNG or LNG.</br>
-                        Our business model is geared towards providing cleaner, cost-effective natural gas for power generation, vehicle transportation and manufacturing processes in infrastructure stranded markets within and beyond  the emerging industrial hubs of South Eastern Nigeria.</div>
-                        <ul class="list-style-one">
-                        	<!-- <li><strong>Our Vision</strong>Mission is to facilitate the widespread adoption of clean and efficient energy solutions, thereby contributing to a greener and more sustainable future for generations to come</li> -->
-                            <li><strong>Our Vision</strong>To be a leader in innovative energy solutions in sub-saharan Africa </li>
-                            <li><strong>Our Mission</strong>To deepen energy utilization in immediate markets by facilitating smart and efficient energy solutions to a differentiated cross-section of customers. </li>
-                        </ul>
-                        <!-- <a class="see_all" href="#">See All Positions <span class="icon flaticon-right-arrow-1"></span></a> -->
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!--End Career Section-->
 
-    <!--Market Section Three-->
-    <section class="market-section-three">
-    	<div class="auto-container">
-        	<div class="sec-title centered">
-                <h2>Our Offerings</h2>
-                <div class="separator"></div>
-            </div>
-            <div class="three-item-carousel owl-carousel owl-theme">
-            	
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                            <h3><a href="#">Technical <br> Study </a></h3>
-                            
+                    <!-- Image Block -->
+                    <img src="/assets/img/images/th-8/service-img-1.png" alt="project-hover-img-1" width="300" height="250" class="hover-on-image top-0 hidden h-auto w-[300px] transition-transform duration-300 ease-in-out" />
+                    <!-- Image Block -->
+                </li>
+                <!-- Service Item -->
+                <!-- Service Item -->
+                <li class="jos group" onmouseover="showImage(event)">
+                    <div class="transition-all duration-300 group-hover:bg-[#000937]">
+                        <!-- Content Block -->
+                        <div class="round-[5px] container grid grid-cols-1 items-center gap-6 py-[30px] text-[#FCF9F0] transition-all md:grid-cols-[1fr_1fr_50px]">
+                            <a class='font-outfit text-3xl font-medium md:text-4xl xxl:text-[50px]' href='#'>UX/UI Design</a>
+                            <p class="para-lg max-w-[526px]">
+                                Create beautiful, pixel-perfect, and easy-to-use designs
+                                that delight your end users.
+                            </p>
+                            <a href='#'>
+                                <img src="/assets/img/icons/icon-buttery-white-solid-arrow-right.svg" alt="icon-buttery-white-solid-arrow-right" width="50" height="49" />
+                            </a>
                         </div>
-                        <div class="lower-box" style="height:150px!important">
-                        	<a href="#"><img src="/homeassets/images/study1.jpg" height="50" alt="" /></a>
-                        </div>
+                        <!-- Content Block -->
                     </div>
-                </div>
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                            <h3><a href="#">CNG Compression <br> and Transport</a></h3>
-                            
-                        </div>
-                        <div class="lower-box" style="height:150px!important">
-                        	<a href="#"><img src="/homeassets/images/cng-tanker.jpg" alt="" /></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                            <h3><a href="#">CNG Conversion Services <br> With Appropriate Kit</a></h3>
-                           
-                        </div>
-                        <div class="lower-box" style="height:150px!important">
-                        	<a href="#"><img src="/homeassets/images/storage2.jpg" alt="" /></a>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                            <h3><a href="#">CNG Daughter </br> Stations</a></h3>
-                        </div>
-                        <div class="lower-box">
-                        	<a href="#"><img src="/homeassets/images/daughterstation1.jpg"  alt="" /></a>
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section>
-    <!--End Market Section Three-->
-    
 
-   	<!--Market Section-->
-    <section class="market-section" style="background-image:url(/homeassets/images/background/2.jpg)">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	
-                <!--Column-->
-                <div class="title-column m-block col-lg-4 col-md-12 col-sm-12 col-xs-12">
-                	<div class="inner-column">
-                    	<div class="sec-title light">
-                        	<h2>Products and Services:</h2>
-                            <div class="separator"></div>
+                    <!-- Image Block -->
+                    <img src="/assets/img/images/th-8/service-img-2.png" alt="project-hover-img-2" width="300" height="250" class="hover-on-image top-0 hidden h-auto w-[300px] transition-transform duration-300 ease-in-out" />
+                    <!-- Image Block -->
+                </li>
+                <!-- Service Item -->
+                <!-- Service Item -->
+                <li class="jos group" onmouseover="showImage(event)">
+                    <div class="transition-all duration-300 group-hover:bg-[#000937]">
+                        <!-- Content Block -->
+                        <div class="round-[5px] container grid grid-cols-1 items-center gap-6 py-[30px] text-[#FCF9F0] transition-all md:grid-cols-[1fr_1fr_50px]">
+                            <a class='font-outfit text-3xl font-medium md:text-4xl xxl:text-[50px]' href='#'>Mobile App Development</a>
+                            <p class="para-lg max-w-[526px]">
+                                Build high-performing, scalable and secure mobile apps
+                                for iOS and Android devices.
+                            </p>
+                            <a href='#'>
+                                <img src="/assets/img/icons/icon-buttery-white-solid-arrow-right.svg" alt="icon-buttery-white-solid-arrow-right" width="50" height="49" />
+                            </a>
                         </div>
-                       
-                        <a class="view_all"><span class="icon flaticon-right-arrow-1"></span> View All Sectors</a>
+                        <!-- Content Block -->
                     </div>
-                </div>
-                
-                <!--Market Block-->
-                <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<h3><a>CNG Conversion <br>Kits </a></h3>
-                        <div class="text">We offer high-quality conversion kits that enable vehicles to run on CNG, providing a cost-effective and environmentally friendly alternative to traditional fuels.</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-conveyor"></span>
+
+                    <!-- Image Block -->
+                    <img src="/assets/img/images/th-8/service-img-3.png" alt="project-hover-img-3" width="300" height="250" class="hover-on-image top-0 hidden h-auto w-[300px] transition-transform duration-300 ease-in-out" />
+                    <!-- Image Block -->
+                </li>
+                <!-- Service Item -->
+                <!-- Service Item -->
+                <li class="jos group" onmouseover="showImage(event)">
+                    <div class="transition-all duration-300 group-hover:bg-[#000937]">
+                        <!-- Content Block -->
+                        <div class="round-[5px] container grid grid-cols-1 items-center gap-6 py-[30px] text-[#FCF9F0] transition-all md:grid-cols-[1fr_1fr_50px]">
+                            <a class='fo text-3xlnmd:t-medium font-outfit text-4xl xxl:text-[50px]' href='#'>AI Chatbot Development</a>
+                            <p class="para-lg max-w-[526px]">
+                                We build ChatGPT-trained chatbots and more that speak
+                                your brand's language.
+                            </p>
+                            <a href='#'>
+                                <img src="/assets/img/icons/icon-buttery-white-solid-arrow-right.svg" alt="icon-buttery-white-solid-arrow-right" width="50" height="49" />
+                            </a>
                         </div>
-                        <a class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
+                        <!-- Content Block -->
                     </div>
-                </div>
-                
-                <!--Market Block-->
-                <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<h3><a>CNG Refueling <br> Station</a></h3>
-                        <div class="text">Our turnkey solutions include the design, installation, and maintenance of CNG refueling stations for fleet operators, municipalities, and private businesses.</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-demolishing"></span>
+
+                    <!-- Image Block -->
+                    <img src="/assets/img/images/th-8/service-img-4.png" alt="project-hover-img-3" width="300" height="250" class="hover-on-image top-0 hidden h-auto w-[300px] transition-transform duration-300 ease-in-out" />
+                    <!-- Image Block -->
+                </li>
+                <!-- Service Item -->
+                <!-- Service Item -->
+                <li class="jos group" onmouseover="showImage(event)">
+                    <div class="transition-all duration-300 group-hover:bg-[#000937]">
+                        <!-- Content Block -->
+                        <div class="round-[5px] container grid grid-cols-1 items-center gap-6 py-[30px] text-[#FCF9F0] transition-all md:grid-cols-[1fr_1fr_50px]">
+                            <a class='fo text-3xlnmd:t-medium font-outfit text-4xl xxl:text-[50px]' href='#'>Data Engineering</a>
+                            <p class="para-lg max-w-[526px]">
+                                Find the insights you need to make decisions faster.
+                                Manage your massive streams of data.
+                            </p>
+                            <a href='#'>
+                                <img src="/assets/img/icons/icon-buttery-white-solid-arrow-right.svg" alt="icon-buttery-white-solid-arrow-right" width="50" height="49" />
+                            </a>
                         </div>
-                        <a class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
+                        <!-- Content Block -->
                     </div>
-                </div>
-                
-                <!--Market Block-->
-                <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<h3><a>CNG Vehicle <br> Maintenance</a></h3>
-                        <div class="text">We provide comprehensive maintenance services for CNG vehicles, ensuring optimal performance and longevity.</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-valve"></span>
-                        </div>
-                        <a class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
-                    </div>
-                </div>
-                
-                <!--Market Block-->
-                <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<h3><a>Consultation and <br>Training  </a></h3>
-                        <div class="text">Our team of experts offers consultation services and training programs to help clients navigate the transition to CNG technology seamlessly.</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-boat"></span>
-                        </div>
-                        <a class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
-                    </div>
-                </div>
-                
-                <!--Market Block-->
-                <div class="market-block m-block col-lg-4 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<h3><a>Fleet Management </br> Solutions </a></h3>
-                        <div class="text">We offer advanced fleet management software designed to optimize operational efficiency, reduce costs, and minimize environmental impact.</div>
-                        <div class="icon-box">
-                        	<span class="icon flaticon-flasks"></span>
-                        </div>
-                        <a class="view_all">Go Through <span class="icon flaticon-right-arrow-1"></span></a>
-                    </div>
-                </div>
-                
-            </div>
+
+                    <!-- Image Block -->
+                    <img src="/assets/img/images/th-8/service-img-5.png" alt="project-hover-img-3" width="300" height="250" class="hover-on-image top-0 hidden h-auto w-[300px] transition-transform duration-300 ease-in-out" />
+                    <!-- Image Block -->
+                </li>
+                <!-- Service Item -->
+            </ul>
+            <!-- Service List -->
+
+            <img src="/assets/img/images/th-8/service-img-1.png" alt="Hovered Project Image" class="hovered-image fixed -top-32 left-5 z-50 hidden h-[444px] w-[435px]" id="hoveredImage" />
         </div>
-    </section>
-    <!--End Market Section-->
-    <section class="cng-advantage">
+        <!-- Section Space -->
+    </div>
+    <!-- Section Background -->
+</section>
+<!-- ...::: Service Section End :::... -->
+
+<!-- ...::: Content Section Start :::... -->
+<section class="content-section">
+    <!-- Section Space -->
+    <div class="section-space">
+        <!-- Section Container -->
         <div class="container">
-            <div class="sec-title centered">
-                <h2>VACO GAS VALUE CHAIN</h2>
-                <div class="separator"></div>
-            </div>
-            <div class="row">
-                <div class="col-12">
-                    <img src="/homeassets/images/cngscheme.jpg" width="100%" alt="">
+            <!-- Content Area -->
+            <div class="grid grid-cols-1 items-center gap-14 md:grid-cols-[1fr_minmax(0,0.6fr)] lg:gap-[100px]">
+                <!-- Content Left Block -->
+                <div class="jos" data-jos_animation="fade-left">
+                    <!-- Section Block -->
+                    <div class="mb-[30px] text-[#000937]">
+                        <h2 class="font-outfit text-5xl font-medium leading-none lg:text-6xl lg:-tracking-[3px] xl:text-7xl xxl:text-[110px]">
+                            Enhance lives with technology
+                        </h2>
+                        <p class="mt-6 font-outfit text-xl font-medium lg:text-2xl">
+                            As a technology company, we’re critical to innovation,
+                            economic growth &social progress to make life better &
+                            more convenient.
+                        </p>
+                    </div>
+                    <!-- Section Block -->
+                    <!-- Content List -->
+                    <ul class="para-lg mt-12 flex flex-col gap-y-6">
+                        <!-- Content Item -->
+                        <li class="flex items-center gap-6">
+                            <img src="/assets/img/images/th-8/content-icon-img-1.png" alt="content-icon-img-1" width="50" height="50" />
+                            <div class="flex-1">
+                                <strong class="font-outfit font-medium">Expertise In Technology:</strong>
+                                As an software engineering company, our technology team
+                                consists of highly skilled professionals.
+                            </div>
+                        </li>
+                        <!-- Content Item -->
+                        <!-- Content Item -->
+                        <li class="flex items-center gap-6">
+                            <img src="/assets/img/images/th-8/content-icon-img-2.png" alt="content-icon-img-2" width="50" height="50" />
+                            <div class="flex-1">
+                                <strong class="font-outfit font-medium">Cost-Effectiveness:</strong>
+                                The competitive pricing model we employ provides notable
+                                cost savings while maintaining a high quality.
+                            </div>
+                        </li>
+                        <!-- Content Item -->
+                        <!-- Content Item -->
+                        <li class="flex items-center gap-6">
+                            <img src="/assets/img/images/th-8/content-icon-img-3.png" alt="content-icon-img-3" width="50" height="50" />
+                            <div class="flex-1">
+                                <strong class="font-outfit font-medium">Full Flexibility:</strong>
+                                From a single developer to a fully integrated team, we
+                                enjoy new challenges, are self-driven & proactive in
+                                learning.
+                            </div>
+                        </li>
+                        <!-- Content Item -->
+                    </ul>
+                    <!-- Content List -->
                 </div>
-            </div>
-        </div>
-    </section>
+                <!-- Content Left Block -->
 
-    <!--Market Section Four-->
-    <section class="market-section-four">
-    	<div class="auto-container">
-        	<!--Sec Title-->
-            <div class="sec-title centered">
-            	<h2>Why VacoGas</h2>
-                <div class="separator"></div>
+                <!-- Content Right Block -->
+                <div class="jos overflow-hidden rounded-[10px]" data-jos_animation="fade-right">
+                    <img src="/assets/img/images/th-8/content-img-2.jpg" alt="content-img-2" width="450" height="550" class="h-auto w-full" />
+                </div>
+                <!-- Content Right Block -->
             </div>
-            
-            <div class="row clearfix">
-            	
-                <!--Market Block-->
-                <div class="market-block-four col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<a href="#"><img src="/homeassets/images/safety.jpeg" alt="" /></a>
-                        </div>
-                        <div class="lower-content">
-                        	<div class="icon-box">
-                            	<span class="icon flaticon-piston"></span>
-                            </div>
-                        	<h3><a href="#">Quality and Safety</a></h3>
-                            <div class="text">IN HOUSE GLOBAL ENGINEERING & DESIGN TEAM</div>
-                                      </div>
-                    </div>
-                </div>
-                
-                <!--Market Block-->
-                <div class="market-block-four col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<a href="#"><img src="/homeassets/images/reliable.jpeg" alt="" /></a>
-                        </div>
-                        <div class="lower-content">
-                        	<div class="icon-box">
-                            	<span class="icon flaticon-demolishing"></span>
-                            </div>
-                        	<h3><a href="#">Reliability</a></h3>
-                            <div class="text">24 X 7 CNG SUPPLY ,MULTIPLE COMPRESSION STATIONS ACROSS NIGERIA </div>
-                          
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Market Block-->
-                <div class="market-block-four col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                    	<div class="image">
-                        	<a href="#"><img src="/homeassets/images/energysaving.jpeg" alt="" /></a>
-                        </div>
-                        <div class="lower-content">
-                        	<div class="icon-box">
-                            	<span class="icon flaticon-power"></span>
-                            </div>
-                        	<h3><a href="#">Energy Savings</a></h3>
-                            <div class="text">CNG ~ 30% CHEAPER THAN DIESEL</div>
-                        </div>
-                    </div>
-                </div>
-                
-                
-            </div>
-            
-          
+            <!-- Content Area -->
         </div>
-    </section>
-    <!--End Market Section Four-->
-    
+        <!-- Section Container -->
+    </div>
+    <!-- Section Space -->
+</section>
+<!-- ...::: Content Section End :::... -->
 
-  
-    
-  
-    <!--Informations Section-->
-    <!-- <section class="informations-section" style="background-image:url(/homeassets/images/background/3.jpg)">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            
-                <div class="info-block col-md-3 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                        <div class="icon-box">
-                            <span class="icon flaticon-layers"></span>
-                        </div>
-                        <h3><a href="#">1.Exploration</a></h3>
-                    </div>
-                </div>
-                <div class="info-block col-md-3 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                        <div class="icon-box">
-                            <span class="icon flaticon-oil-platform"></span>
-                        </div>
-                        <h3><a href="#">2.Development</a></h3>
-                    </div>
-                </div>
-                
-                <div class="info-block col-md-3 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                        <div class="icon-box">
-                            <span class="icon flaticon-idea-1"></span>
-                        </div>
-                        <h3><a href="#">3.Production</a></h3>
-                    </div>
-                </div>
-                
-                <div class="info-block col-md-3 col-sm-6 col-xs-12">
-                	<div class="inner-box">
-                        <div class="icon-box">
-                            <span class="icon flaticon-security"></span>
-                        </div>
-                        <h3><a href="#">4.Abandonment</a></h3>
-                    </div>
-                </div>
-                
+<!-- ...::: Working Process Section Start :::... -->
+<section class="section-working-process">
+    <!-- Section Space -->
+    <div class="section-space-bottom">
+        <!-- Section Container -->
+        <div class="container">
+            <!-- Section Block -->
+            <div class="mx-auto mb-10 max-w-xl text-center text-[#000937] md:mb-[60px] lg:mb-20 lg:max-w-2xl xxl:max-w-4xl">
+                <h2 class="jos font-outfit text-5xl font-medium leading-none lg:text-6xl lg:-tracking-[3px] xl:text-7xl xxl:text-[110px]">
+                    Our process flows always smoothly
+                </h2>
             </div>
-        </div>
-    </section> -->
-    <!--End Informations Section-->
+            <!-- Section Block -->
 
-      <!--Market Section Three-->
-      <section class="market-section-three">
-    	<div class="auto-container">
-        	<div class="sec-title centered">
-                <h2>Core Values</h2>
-                <div class="separator"></div>
-            </div>
-            <div class="three-item-carousel owl-carousel owl-theme">
-            	
-                
-                
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                        	<div class="icon-box">
-                            	<span class="icon flaticon-demolishing"></span>
-                            </div>
-                            <h3><a href="market-single.html">Sustainability </a></h3>
-                            <div class="text">We are dedicated to reducing carbon emissions and promoting environmental stewardship through the widespread adoption of CNG technology.</div>
-                        </div>
+            <!-- Process List -->
+            <ul class="flex flex-col justify-between gap-y-10 divide-[#000937] text-[#000937] md:flex-row md:divide-x">
+                <li class="jos flex flex-col justify-center gap-4 px-8 text-center first-of-type:pl-0 last-of-type:pr-0 md:gap-6 xl:px-[60px]">
+                    <div class="mx-auto">
+                        <img src="/assets/img/images/th-8/process-img-1.png" alt="process-img-1" width="191" height="191" class="max-w-28 lg:max-w-full" />
                     </div>
-                </div>
-                
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                        	<div class="icon-box">
-                            	<span class="icon flaticon-power"></span>
-                            </div>
-                            <h3><a href="market-single.html">Innovation</a></h3>
-                            <div class="text">We continuously strive to develop cutting-edge solutions that optimize efficiency and performance in the transportation industry.</div>
-                        </div>
+                    <div class="font-outfit text-2xl font-medium">
+                        Planning and Strategy
                     </div>
-                </div>
-                
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                        	<div class="icon-box">
-                            	<span class="icon flaticon-piston"></span>
-                            </div>
-                            <h3><a href="market-single.html">Customer Focus</a></h3>
-                            <div class="text">We prioritize the needs of our clients and are committed to delivering exceptional service and support.</div>
-                        </div>
+                    <p class="para-lg">
+                        In this step we understand the client's needs, goals &
+                        challenges. Identify project pain points.
+                    </p>
+                </li>
+                <li class="jos flex flex-col justify-center gap-4 px-8 text-center first-of-type:pl-0 last-of-type:pr-0 md:gap-6 xl:px-[60px]">
+                    <div class="mx-auto">
+                        <img src="/assets/img/images/th-8/process-img-2.png" alt="process-img-2" width="191" height="191" class="max-w-28 lg:max-w-full" />
                     </div>
-                </div>
-                
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                        	<div class="icon-box">
-                            	<span class="icon flaticon-demolishing"></span>
-                            </div>
-                            <h3><a href="market-single.html">Integrity</a></h3>
-                            <div class="text">We conduct our business with the highest standards of honesty, transparency, and ethical conduct.</div>
-                        </div>
-                     
+                    <div class="font-outfit text-2xl font-medium">
+                        Discovery and Analysis
                     </div>
-                </div>
-                
-                
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                        	<div class="icon-box">
-                            	<span class="icon flaticon-power"></span>
-                            </div>
-                            <h3><a href="market-single.html">Collaboration</a></h3>
-                            <div class="text">We believe in the power of partnership and actively collaborate with stakeholders to drive positive change in the industry.</div>
-                        </div>
-                        
+                    <p class="para-lg">
+                        Defining the project milestones, and creating a timeline,
+                        allocating resources and procedures.
+                    </p>
+                </li>
+                <li class="jos flex flex-col justify-center gap-4 px-8 text-center first-of-type:pl-0 last-of-type:pr-0 md:gap-6 xl:px-[60px]">
+                    <div class="mx-auto">
+                        <img src="/assets/img/images/th-8/process-img-3.png" alt="process-img-3" width="191" height="191" class="max-w-28 lg:max-w-full" />
                     </div>
-                </div>
+                    <div class="font-outfit text-2xl font-medium">
+                        Execution and Delivery
+                    </div>
+                    <p class="para-lg">
+                        Along with the planning, and we proceed to execute the
+                        project as per the agreed strategy.
+                    </p>
+                </li>
+            </ul>
+            <!-- Process List -->
+        </div>
+        <!-- Section Container -->
+    </div>
+    <!-- Section Space -->
+</section>
+<!-- ...::: Working Process Section End :::... -->
 
-                <div class="market-block-three">
-                	<div class="inner-box">
-                    	<div class="upper-box">
-                        	<div class="icon-box">
-                            	<span class="icon flaticon-piston"></span>
-                            </div>
-                            <h3><a href="market-single.html">Safety</a></h3>
-                            <div class="text">Work place safety is our cardinal value  </div>
-                        </div>
-                        
-                    </div>
-                </div>
-                
+
+
+
+
+<!-- ...::: FAQ Section Start :::... -->
+<section class="section-faq">
+    <!-- Section Space -->
+    <div class="section-space-bottom">
+        <!-- Section Container -->
+        <div class="container">
+            <!-- Section Block -->
+            <div class="mx-auto mb-10 max-w-xl text-center text-[#000937] md:mb-[60px] lg:mb-20 lg:max-w-2xl xxl:max-w-4xl">
+                <h2 class="jos font-outfit text-5xl font-medium leading-none lg:text-6xl lg:-tracking-[3px] xl:text-7xl xxl:text-[110px]">
+                    Most frequently asked questions
+                </h2>
             </div>
+            <!-- Section Block -->
+
+            <!-- Accordion List -->
+            <ul class="jos flex flex-col divide-y divide-[#000937]">
+                <!-- Accordion Item -->
+                <li class="accordion-item-style-4 accordion-item active py-10 first-of-type:pt-0 last-of-type:pb-0">
+                    <!-- Accordion Header -->
+                    <div class="accordion-header flex items-center justify-between gap-6 text-4xl text-[#000937]">
+                        <button class="flex-1 text-left font-outfit text-3xl font-medium leading-tight md:text-4xl lg:text-[50px]">
+                            What's your design process like?
+                        </button>
+                        <div class="accordion-icon">
+                            <img src="/assets/img/icons/icon-black-cheveron-down.svg" alt="icon-black-cheveron-down" />
+                        </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[1126px] opacity-80">
+                        <p class="para-lg pt-5">
+                            Our design process typically involves discovery, concept development, design, revisions based on feedback, and finalization.
+                        </p>
+                    </div>
+                    <!-- Accordion Body -->
+                </li>
+                <!-- Accordion Item -->
+                <!-- Accordion Item -->
+                <li class="accordion-item-style-4 accordion-item py-10 first-of-type:pt-0 last-of-type:pb-0">
+                    <!-- Accordion Header -->
+                    <div class="accordion-header flex items-center justify-between gap-6 text-4xl text-[#000937]">
+                        <button class="flex-1 text-left font-outfit text-3xl font-medium leading-tight md:text-4xl lg:text-[50px]">
+                            How do you handle user feedback?
+                        </button>
+                        <div class="accordion-icon">
+                            <img src="/assets/img/icons/icon-black-cheveron-down.svg" alt="icon-black-cheveron-down" />
+                        </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[1126px] opacity-80">
+                        <p class="para-lg pt-5">
+                            We value client feedback and work closely with you to make sure user happy with the final design. We offer a specific number of revisions.
+                        </p>
+                    </div>
+                    <!-- Accordion Body -->
+                </li>
+                <!-- Accordion Item -->
+                <!-- Accordion Item -->
+                <li class="accordion-item-style-4 accordion-item py-10 first-of-type:pt-0 last-of-type:pb-0">
+                    <!-- Accordion Header -->
+                    <div class="accordion-header flex items-center justify-between gap-6 text-4xl text-[#000937]">
+                        <button class="flex-1 text-left font-outfit text-3xl font-medium leading-tight md:text-4xl lg:text-[50px]">
+                            What services does agency offer?
+                        </button>
+                        <div class="accordion-icon">
+                            <img src="/assets/img/icons/icon-black-cheveron-down.svg" alt="icon-black-cheveron-down" />
+                        </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[1126px] opacity-80">
+                        <p class="para-lg pt-5">
+                            Clients often seek to understand the range of design services an agency provides, such as graphic design, web design, branding.
+                        </p>
+                    </div>
+                    <!-- Accordion Body -->
+                </li>
+                <!-- Accordion Item -->
+                <!-- Accordion Item -->
+                <li class="accordion-item-style-4 accordion-item py-10 first-of-type:pt-0 last-of-type:pb-0">
+                    <!-- Accordion Header -->
+                    <div class="accordion-header flex items-center justify-between gap-6 text-4xl text-[#000937]">
+                        <button class="flex-1 text-left font-outfit text-3xl font-medium leading-tight md:text-4xl lg:text-[50px]">
+                            How much does design work cost?
+                        </button>
+                        <div class="accordion-icon">
+                            <img src="/assets/img/icons/icon-black-cheveron-down.svg" alt="icon-black-cheveron-down" />
+                        </div>
+                    </div>
+                    <!-- Accordion Header -->
+                    <!-- Accordion Body -->
+                    <div class="accordion-body max-w-[1126px] opacity-80">
+                        <p class="para-lg pt-5">
+                            The cost of our design services varies depending on the scope of the project. We provide customized quotes after discussing requirements.
+                        </p>
+                    </div>
+                    <!-- Accordion Body -->
+                </li>
+                <!-- Accordion Item -->
+            </ul>
+            <!-- Accordion List -->
         </div>
-    </section>
-    <!--End Market Section Three-->
-    
-    
-    
-    
-    <!--Testimonial Section-->
-    <!-- <section class="testimonial-section">
-    	<div class="auto-container">
-        	<div class="sec-title centered">
-                <h2>Testimonials</h2>
-                <div class="separator"></div>
-            </div>
-            <div class="testimonial-two-item owl-carousel owl-theme">
-            	
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="author-img">
-                            <img src="/homeassets/images/resource/author-1.png" alt="" />
-                        </div>
-                        <div class="quote-icon">
-                            <span class="icon flaticon-quotation"></span>
-                        </div>
-                        <h3>Teena Venanda</h3>
-                        <div class="location">Newyork City</div>
-                        <div class="text">Must explain to you how mistaken our  denouncing pleasure & praising pain was born we will give expound human happiness pursue pleasure...</div>
-                        <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
-                    </div>
-                </div>
-                
-                <div class="testimonial-block style-two">
-                    <div class="inner-box">
-                        <div class="author-img">
-                            <img src="/homeassets/images/resource/author-2.png" alt="" />
-                        </div>
-                        <div class="quote-icon">
-                            <span class="icon flaticon-quotation"></span>
-                        </div>
-                        <h3>Teena Venanda</h3>
-                        <div class="location">Newyork City</div>
-                        <div class="text">Must explain to you how mistaken our  denouncing pleasure & praising pain was born we will give expound human happiness pursue pleasure...</div>
-                        <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
-                    </div>
-                </div>
-                    
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="author-img">
-                            <img src="/homeassets/images/resource/author-1.png" alt="" />
-                        </div>
-                        <div class="quote-icon">
-                            <span class="icon flaticon-quotation"></span>
-                        </div>
-                        <h3>Teena Venanda</h3>
-                        <div class="location">Newyork City</div>
-                        <div class="text">Must explain to you how mistaken our  denouncing pleasure & praising pain was born we will give expound human happiness pursue pleasure...</div>
-                        <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
-                    </div>
-                </div>
-                
-                <div class="testimonial-block style-two">
-                    <div class="inner-box">
-                        <div class="author-img">
-                            <img src="/homeassets/images/resource/author-2.png" alt="" />
-                        </div>
-                        <div class="quote-icon">
-                            <span class="icon flaticon-quotation"></span>
-                        </div>
-                        <h3>Teena Venanda</h3>
-                        <div class="location">Newyork City</div>
-                        <div class="text">Must explain to you how mistaken our  denouncing pleasure & praising pain was born we will give expound human happiness pursue pleasure...</div>
-                        <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
-                    </div>
-                </div>
-                
-                <div class="testimonial-block">
-                    <div class="inner-box">
-                        <div class="author-img">
-                            <img src="/homeassets/images/resource/author-1.png" alt="" />
-                        </div>
-                        <div class="quote-icon">
-                            <span class="icon flaticon-quotation"></span>
-                        </div>
-                        <h3>Teena Venanda</h3>
-                        <div class="location">Newyork City</div>
-                        <div class="text">Must explain to you how mistaken our  denouncing pleasure & praising pain was born we will give expound human happiness pursue pleasure...</div>
-                        <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
-                    </div>
-                </div>
-                
-                <div class="testimonial-block style-two">
-                    <div class="inner-box">
-                        <div class="author-img">
-                            <img src="/homeassets/images/resource/author-2.png" alt="" />
-                        </div>
-                        <div class="quote-icon">
-                            <span class="icon flaticon-quotation"></span>
-                        </div>
-                        <h3>Teena Venanda</h3>
-                        <div class="location">Newyork City</div>
-                        <div class="text">Must explain to you how mistaken our  denouncing pleasure & praising pain was born we will give expound human happiness pursue pleasure...</div>
-                        <a href="#" class="read">Continue to Read <span class="icon flaticon-right-arrow-1"></span></a>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </section> -->
-    <!--End Testimonial Section-->
-    
-    <!--Clients Section-->
-    <!-- <section class="clients-section">
-        <div class="auto-container">
-            
-            <div class="sponsors-outer">
-               
-                <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/4.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/5.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/6.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/7.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/8.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/9.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/4.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/5.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/6.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="/homeassets/images/clients/7.png" alt=""></a></figure></li>
-                </ul>
-            </div>
-            
-        </div>
-    </section> -->
-    <!--End Clients Section-->
-    
-    <!--Call To Action Section-->
-    <section class="call-to-action-section" style="background-image:url(/homeassets/images/background/5.jpg)">
-    	<div class="auto-container">
-        	<div class="row clearfix">
-            	<div class="col-md-9 col-sm-12 col-xs-12">
-                	<h2>Have any questions </h2>
-                </div>
-                <div class="link-column col-md-3 col-sm-12 col-xs-12">
-                	<a class="apointment" href="/contact">Contact Us <span class="icon flaticon-arrow-pointing-to-right"></span></a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--End Call To Action Section-->
+        <!-- Section Container -->
+    </div>
+    <!-- Section Space -->
+</section>
+<!-- ...::: FAQ Section End :::... -->
 @endsection
