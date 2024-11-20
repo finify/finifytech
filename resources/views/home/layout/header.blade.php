@@ -30,7 +30,7 @@
 							<a class='nav-link-item' href='/'>Home</a>
 						</li>
 						<li class="nav-link-item drop-trigger text-colorDark rounded-none border border-transparent">
-							<a class='nav-link-item' href='/'>about</a>
+							<a class='nav-link-item' href='/about'>about</a>
 						</li>
 						{{-- dropdown --}}
 						{{-- <li class="nav-item nav-item-has-children">
