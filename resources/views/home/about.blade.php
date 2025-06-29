@@ -192,6 +192,7 @@
 </section>
 <!-- ...::: About Gallery Section End :::... -->
 
+
 <!-- ...::: Text Slider Section Start :::... -->
 <div class="section-text-slider">
     <div class="bg-black py-5">
