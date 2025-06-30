@@ -9,7 +9,7 @@
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="/assets/img/finifyfavicon.png" type="image/x-icon" />
 
-	@vite('resources/css/app.css')
+	{{-- @vite('resources/css/app.css') --}}
 	<!-- Site font -->
 	<link rel="stylesheet" href="/assets/fonts/webfonts/inter/stylesheet.css" />
 	<link rel="stylesheet" href="/assets/fonts/webfonts/outfit/stylesheet.css" />

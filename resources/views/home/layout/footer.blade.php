@@ -26,7 +26,7 @@
                         <div class="flex flex-col gap-y-4 font-outfit text-2xl font-medium">
                             <a href="tel:+0882346849" class="flex items-center gap-3 hover:underline">
                                 <img src="/assets/img/icons/icon-white-phone.svg" alt="icon-white-phone" width="30" height="30" />
-                                <span class="flex-1"> +08132953221 </span>
+                                <span class="flex-1"> +2347077793426 </span>
                             </a>
                             <a href="mail:info@finifytech.com" class="flex items-center gap-3 hover:underline">
                                 <img src="/assets/img/icons/icon-white-mail.svg" alt="icon-white-mail" width="34" height="34" />

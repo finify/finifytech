@@ -130,8 +130,7 @@
                     <div class="flex-1">
                         <span class="mb-3 block text-xl font-bold text-colorButteryWhite xl:text-2xl">Call us</span>
                         <div class="flex flex-col text-lg leading-[1.42] lg:text-[21px]">
-                            <a href="tel:+0123456789" class="text-colorButteryWhite hover:text-colorLightLime">+012-345-6789</a>
-                            <a href="tel:+0123456789" class="text-colorButteryWhite hover:text-colorLightLime">+012-345-6789</a>
+                            <a href="tel:+2347077793426" class="text-colorButteryWhite hover:text-colorLightLime">+2347077793426</a>
                         </div>
                     </div>
                 </li>
@@ -144,8 +143,7 @@
                     <div class="flex-1">
                         <span class="mb-3 block text-xl font-bold text-colorButteryWhite xl:text-2xl">Email us</span>
                         <div class="flex flex-col text-lg leading-[1.42] lg:text-[21px]">
-                            <a href="mailto:" class="text-colorButteryWhite hover:text-colorLightLime">example@gmail.com</a>
-                            <a href="mailto:" class="text-colorButteryWhite hover:text-colorLightLime">example@gmail.com</a>
+                            <a href="mailto:info@finifytech.com" class="text-colorButteryWhite hover:text-colorLightLime">info@finifytech.com</a>
                         </div>
                     </div>
                 </li>
@@ -159,7 +157,7 @@
                         <span class="mb-3 block text-xl font-bold text-colorButteryWhite xl:text-2xl">Office address</span>
                         <div class="flex flex-col text-lg leading-[1.42] lg:text-[21px]">
                             <address class="not-italic text-colorButteryWhite">
-                                4132 Thornridge City, New York.
+                                2 Liverpool Street, Apapa Lagos
                             </address>
                         </div>
                     </div>
@@ -268,7 +266,7 @@
                 <!-- FAQ List -->
                 <ul class="flex flex-col gap-y-10">
                     <!-- FAQ Item -->
-                    <li class="jos flex flex-col gap-y-4">
+                    {{-- <li class="jos flex flex-col gap-y-4">
                         <!-- FAQ Header Block -->
                         <h4 class="relative pl-10 before:absolute before:left-0 before:top-1 before:h-[30px] before:w-[30px] before:bg-[url(../img/icons/icon-lightlime-question.svg)]">
                             What's your design process like?
@@ -283,7 +281,7 @@
                             </p>
                         </div>
                         <!-- FAQ Body -->
-                    </li>
+                    </li> --}}
                     <!-- FAQ Item -->
                     <!-- FAQ Item -->
                     <li class="jos flex flex-col gap-y-4">
